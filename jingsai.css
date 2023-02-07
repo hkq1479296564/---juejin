@@ -1,0 +1,181 @@
+/* 字体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?em0m06');
+    src:  url('fonts/icomoon.eot?em0m06#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?em0m06') format('truetype'),
+      url('fonts/icomoon.woff?em0m06') format('woff'),
+      url('fonts/icomoon.svg?em0m06#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+li{
+    list-style: none;
+}
+a{ 
+    text-decoration: none;
+
+}
+.header{
+    height: 30px;
+    width: 1417px;
+    background-color: #fff;
+    margin: 15px auto; 
+}
+.logo{
+    float:left;
+    width: 150px;
+    height: 30px;
+    background-color: #fff;
+}
+.nav{
+    float: left;
+    margin-left: 30px;
+}
+.nav ul li {
+    float:left;
+}
+.nav ul li a{
+    display: block;
+    height: 30px;
+    padding:0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color:#686f75;  
+}
+.nav ul li a:hover {
+   border-bottom: 2px solid #1e80ff;
+}
+.search{
+    float:left;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px ;
+    margin-left: 50px;
+}
+.search input {
+    float: left;
+    width:200px;
+    height:28px ;
+    border: 1px solid #c2c8d1;
+    border-right: 0;
+    color: #c1c5cd;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px 0 0 5px;
+}
+.search button{
+    float: left;
+    width: 34px;
+    height: 30px;
+    border: 0;
+    background-image: url(images/sousuo.svg);
+    background-color: #c1c5cd;
+    background-repeat:no-repeat;
+    background-position: center ; 
+    border-radius: 0 5px 5px 0;
+}
+.more::after{
+    content: '\e900';
+    font-family: 'icomoon';
+}
+.center{
+    float:left;
+    margin-left:25px;
+    width: 105px;
+    height: 30px;
+    font-size: 16px;
+}
+.center button{
+    width: 105px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    background-color: #1e80ff;
+    border-radius: 5px 5px 5px 5px;
+}
+.huiyuan{
+    float: left;
+    width: 65px;
+    height:30px;
+    color:#8A919F;
+    background-color: #fff;
+    margin-left:25px;
+    line-height: 30px;
+}
+.huiyuan img{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+    margin-right:3px;
+}
+.huiyuan.vip{
+    float: left;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.register{
+    float: left;
+    margin-left: 25px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+}
+.register button{
+    float: left;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    background-color: #1e80ff;
+    border-radius: 5px 5px 5px 5px;
+}
+.challenge{
+    width: 1417px;
+    height: 406px;
+    padding: 0 0 40px;
+    background-color: pink;
+}
+.description{
+    width: 1200px;
+    height: 230px;
+    margin-left: 108.5px;
+    padding-top: 176px;
+}
+.description img{
+    width: 1200px;
+    height: 230px;
+}
+.section{
+    width: 1417px;height: 521px;background-color: #fff;padding: 20px 0 16px;
+}
+.title{
+    display: inline-block;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    color: #000;
+    white-space: nowrap;
+}
+.footer{
+    background-color: #f2f3f5;
+    width: 1177px;
+    height: 157px;
+    color: #333;
+    padding: 64px 120px;
+}
+.footer ul{
+    font-size: 14px;
+    margin: 40px 0 0;
+    width: 403px;
+    height: 52px;
+}

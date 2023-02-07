@@ -1,0 +1,349 @@
+/* 字体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('fonts/icomoon.eot?em0m06');
+    src:  url('fonts/icomoon.eot?em0m06#iefix') format('embedded-opentype'),
+      url('fonts/icomoon.ttf?em0m06') format('truetype'),
+      url('fonts/icomoon.woff?em0m06') format('woff'),
+      url('fonts/icomoon.svg?em0m06#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+*{
+    margin: 0;
+    padding: 0;
+}
+.w{
+    width: 970px;
+    margin:auto;
+}
+li{
+    list-style: none;
+}
+a{ 
+    text-decoration: none;
+
+}
+.header{
+    height: 30px;
+    width: 1417px;
+    background-color: #ffffff;
+    margin: 15px auto; 
+}
+.logo{
+    float:left;
+    width: 150px;
+    height: 30px;
+    background-color: #ffffff;
+}
+.nav{
+    float: left;
+    margin-left: 30px;
+}
+.nav ul li {
+    float:left;
+}
+.nav ul li a{
+    display: block;
+    height: 30px;
+    padding:0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color:#686f75;  
+}
+.nav ul li a:hover {
+   border-bottom: 2px solid #1e80ff;
+}
+.search{
+    float:left;
+    width: 250px;
+    height: 30px;
+    background-color: #fff;
+    margin-left: 10px ;
+    margin-left: 50px;
+}
+.search input {
+    float: left;
+    width:200px;
+    height:28px ;
+    border: 1px solid #c2c8d1;
+    border-right: 0;
+    color: #c1c5cd;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px 0 0 5px;
+}
+.search button{
+    float: left;
+    width: 34px;
+    height: 30px;
+    border: 0;
+    background-image: url(images/sousuo.svg);
+    background-color: #c1c5cd;
+    background-repeat:no-repeat;
+    background-position: center ; 
+    border-radius: 0 5px 5px 0;
+}
+.more::after{
+    content: '\e900';
+    font-family: 'icomoon';
+}
+.center{
+    float:left;
+    margin-left:25px;
+    width: 105px;
+    height: 30px;
+    font-size: 16px;
+}
+.center button{
+    width: 105px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    background-color: #1e80ff;
+    border-radius: 5px 5px 5px 5px;
+}
+.huiyuan{
+    float: left;
+    width: 65px;
+    height:30px;
+    color:#8A919F;
+    background-color: #fff;
+    margin-left:25px;
+    line-height: 30px;
+}
+.huiyuan img{
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+    margin-right:3px;
+}
+.huiyuan.vip{
+    float: left;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+}
+.register{
+    float: left;
+    margin-left: 25px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+}
+.register button{
+    float: left;
+    width: 88px;
+    height: 28px;
+    border: 1px solid #b3d5ff;
+    color: #3f8cff;
+    background-color: #f4f9ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.banner{
+    height: 28px;
+    width: 1415px;
+    background-color: #fff;
+    margin: 15px auto; 
+    border: 1px solid #f1f1f1;
+}
+.banner .w{
+    height: 30px;
+    background-color:#fff;
+}
+
+.banner .w ul li {
+    float:left;
+}
+.banner .w ul li a{
+    display: block;
+    height: 30px;
+    padding:0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color:#71777c; 
+}  
+.source{
+    height: 2000px;
+    background-color: #f4f5f5;
+}
+.source .w{
+    height: 2000px;
+    background-color:#f4f5f5;
+}
+.subnav{
+    float: left;
+    height: 2000px;
+    width: 686px;
+    background-color: #fff;
+    margin-bottom: 14px;
+    margin-right: 14px;
+    margin-top: 14px;
+}
+.source.w.subnav.m{
+    float: left;
+    height: 46px;
+    width: 686px;
+    background-color: #175cb60d;
+    padding: 15.6px 12px;
+}
+/* .subnav.k{
+
+} */
+.box{
+    float: right;
+    height: 68px;
+    width: 238px;
+    background-color:#fff ;
+    padding: 16px;
+    margin-bottom: 14px;
+    margin-top: 14px;
+}
+.time{
+    display: inline-block;
+    font-size: 16px;
+    width:120px;
+    color:#1D2129;
+    font-weight: bold;
+}
+.sentence{
+    display: inline-block;
+    font-size: 12px;
+    width:120px;
+    color:#8A919F;
+}
+.r{
+    float: right ;
+    padding:6px 15.6px;
+    background-color:#1E80FF0D;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(30, 128, 255,.3);
+}
+.r button{
+    float: right;
+    font-size: 14px;
+    background-color:#1E80FF0D;
+    color: #1e80ff; 
+    border: 0px;
+}
+.h{
+    float: right;
+    width: 270px;
+    margin-bottom: 14px;
+}
+.h img{
+    float: right;
+    width: 100%;
+}
+.b{
+    float: right;
+    padding: 12px;
+    height: 76px;
+    width: 246px;
+    background-color:#fff ;
+}
+.b img{
+    height:76px;
+    margin: 0 16px 0 0;
+}
+.b .content{
+    float: right;
+    width: 154px;
+    height: 76px;
+    background-color:#fff;
+}
+.content .headline{
+    color:#1D2129;
+    font-size: 14px;
+}
+.content .desc{
+    color: #86909c;
+    font-size: 12px;
+    margin: 10px 0 0;
+}
+.bang{ 
+    margin-bottom: 14px;
+    margin-top: 14px;
+    float:right;
+    width: 270px;
+    height: 312.5px;
+    background-color: #fff;
+}
+.p{
+    padding: 12px 15px;
+}
+.bang.head{
+    height: 30px;
+    width: 240px;
+    border-color: #fff;
+}
+.bang .link{
+    height: 50px;
+    width: 240px;
+    background-color:#fff;
+}
+.lan{
+    float:right;
+    margin-bottom: 14px;
+    width: 270px;
+    height: 180px;
+    background-color: #fff;
+} 
+a.link{
+    width: 246px;
+    height: 36px;
+    float:right;
+    padding:12px;
+    background-color: #fff;
+}
+.link img{
+    float:left;
+    margin: 0 9.6px 0 0;
+    height: 36px;
+}
+.link span{
+    float:left;
+    font-size: 14px;
+    line-height: 36px;
+    color: #333;
+}
+.footer{
+    float:right;
+    color: #909090;
+    font-size: 12px;
+    background-color: #f4f5f5;
+    width: 270px;
+    height: 220px;
+}
+.footer ul{
+    float: right;
+    width:270px;
+    height: 19.2px;
+    line-height: 19.2px;
+}
+.footer a{
+    color: #909090;
+}
+.footer ul li span{
+    float: right;
+    width:270px;
+    height: 19.2px;
+    line-height: 19.2px;
+}
+.footer img{
+    float: left;
+    width: 24px;
+    height: 24px;
+}
+.footer ul li .police{
+    width: 20px;
+    height: 20px;
+}
+.wb{
+    height: 24px;
+    margin: 0 8px 0 0;
+}

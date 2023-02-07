@@ -1,0 +1,229 @@
+/* 字体声明 */
+@font-face {
+    font-family: 'icomoon';
+    src: url('fonts/icomoon.eot?em0m06');
+    src: url('fonts/icomoon.eot?em0m06#iefix') format('embedded-opentype'),
+        url('fonts/icomoon.ttf?em0m06') format('truetype'),
+        url('fonts/icomoon.woff?em0m06') format('woff'),
+        url('fonts/icomoon.svg?em0m06#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.w {
+    width: 960px;
+    margin: auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+.header {
+    height: 30px;
+    width: 1417px;
+    background-color: #fff;
+    margin: 15px auto;
+}
+
+.logo {
+    float: left;
+    width: 150px;
+    height: 30px;
+    background-color:#fff;
+}
+
+.nav {
+    float: left;
+    margin-left: 30px;
+}
+
+.nav ul li {
+    float: left;
+}
+
+.nav ul li a {
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #686f75;
+}
+
+.nav ul li a:hover {
+    border-bottom: 2px solid #1e80ff;
+}
+
+.search {
+    float: left;
+    width: 250px;
+    height: 30px;
+    background-color: white;
+    margin-left: 10px;
+    margin-left: 50px;
+}
+
+.search input {
+    float: left;
+    width: 200px;
+    height: 28px;
+    border: 1px solid #c2c8d1;
+    border-right: 0;
+    color: #c1c5cd;
+    font-size: 15px;
+    padding-left: 15px;
+    border-radius: 5px 0 0 5px;
+}
+
+.search button {
+    float: left;
+    width: 34px;
+    height: 30px;
+    border: 0;
+    background-image: url(images/sousuo.svg);
+    background-color: #c1c5cd;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 0 5px 5px 0;
+}
+
+.more::after {
+    content: '\e900';
+    font-family: 'icomoon';
+}
+
+.center {
+    float: left;
+    margin-left: 25px;
+    width: 105px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.center button {
+    width: 105px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    background-color: #1e80ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.huiyuan {
+    float: left;
+    width: 65px;
+    height: 30px;
+    color: #8A919F;
+    background-color: #fff;
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+.huiyuan img {
+    float: left;
+    width: 24px;
+    height: 24px;
+    margin-top: 3px;
+    margin-right: 3px;
+}
+
+.huiyuan.vip {
+    float: left;
+    width: 40px;
+    height: 30px;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.register {
+    float: left;
+    margin-left: 25px;
+    width: 90px;
+    height: 30px;
+    font-size: 16px;
+}
+
+.register button {
+    float: left;
+    width: 90px;
+    height: 30px;
+    border: 0;
+    color: #fff;
+    background-color: #1e80ff;
+    border-radius: 5px 5px 5px 5px;
+}
+
+.banner {
+    height: 30px;
+    width: 1417px;
+    background-color: #fff;
+    margin: 15px auto;
+    border: 1px solid #f1f1f1;
+}
+
+.banner .w {
+    height: 30px;
+    background-color: #fff;
+}
+
+.banner .w ul li {
+    float: left;
+}
+
+.banner .w ul li a {
+    display: block;
+    height: 30px;
+    padding: 0 10px;
+    line-height: 30px;
+    font-size: 16px;
+    color: #686f75;
+}
+.body{
+    height: 5000px;
+    background-color: #f4f5f5;
+}
+.panel{
+    height: 280px;
+    margin-top: 8px;
+    background-color: #fff;
+}
+.item{
+    float:left;
+    background-color: #ccc;
+    margin-right: 15px;
+    width: 470px;
+}
+.calendar{
+    float: right;
+    width: 475px;
+    height: 280px;
+    background-color: #fff;
+}
+.events{
+    width: 974px;
+    height: 3000px;
+    background-color: #f4f5f5;
+    margin: auto;
+    margin-top: 35px;
+}
+.box{
+    float: left;
+    width: 229.5px;
+    height: 264px;
+    margin-bottom: 30px;
+    padding-right: 7px;
+    padding-left: 7px;
+    background-color: #fff;
+}
